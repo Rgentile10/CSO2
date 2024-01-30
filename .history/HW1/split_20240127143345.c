@@ -1,0 +1,4 @@
+cat > split.h
+
+
+q
