@@ -1,0 +1,21 @@
+I used O2 optimization and ran my program on portal which will affect timings:
+
+For Scenario 1 with an Empty Function Call:
+Number of Test Iterations: 1,000
+Average time: 79 ns 
+
+For Scenario 2 with getppid System Call
+Number of Test Iterations: 1,000
+Average time: 412 ns
+
+For Scenario 3 with system("/usr/bin/true") Command
+Number of Test Iterations: 1,000
+Average time: 3,011,890 ns
+
+For Scenario 4 with Signal to Self
+Number of Test Iterations: 1,000
+Average time: 3,907 ns
+
+For Scenario 5 with Round-Trip Signal Time
+Number of Test Iterations: 2 (done manually)
+Average time: 63,566 ns
